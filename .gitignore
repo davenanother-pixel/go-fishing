@@ -1,0 +1,87 @@
+## Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.lib
+*.pdb
+*.mdb
+
+## Build directories
+bin/
+obj/
+.vs/
+.vscode/
+
+## IDE files
+*.csproj.user
+*.sln.user
+*.suo
+*.vs
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+## NuGet
+.NuGet/
+*.nupkg
+*.nupkg.bak
+*.nuspec
+
+## Test files
+TestResults/
+*.trx
+
+## Publish directories
+publish/
+PublishProfiles/
+
+## Local environment
+.env
+.local.*
+
+## Game data (optional to include)
+%APPDATA%/GoFishing/Data/*
+%APPDATA%/GoFishing/Logs/*
+%APPDATA%/GoFishing/AntiCheat/*
+
+## User preferences
+%APPDATA%/GoFishing/settings.json
+
+## Temporary files
+*.tmp
+*.temp
+*.log~
+*.backup
+
+## OS specific
+Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+## Visual Studio Code
+.vscode/
+*.Code-workspace
+
+## Rider
+.idea/
+*.DotSettings
+*.DotSettings.user
+
+## Editor temp files
+*.orig
+*.rej
+
+## Performance profiling
+*.etl
+*.egprof
